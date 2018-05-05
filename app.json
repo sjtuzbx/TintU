@@ -1,0 +1,28 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/services/services"
+  ],
+  "window":{
+    "backgroundColor":"#f00",
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "TintU",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "开始预约"
+    }, {
+      "pagePath": "pages/services/services",
+      "text": "Services"
+    }]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 100000
+  },
+  "debug": true
+}

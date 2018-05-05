@@ -1,0 +1,18 @@
+<view class="container">
+  <view class="content">
+    <text> {{content}} </text>
+  </view>
+
+  <view class="content" hidden="{{flag ? true : false}}">
+    <text> {{hiddencontent}} </text>
+  </view>
+  
+  <view class="content">
+    <text> {{num1}} + {{num2}} = {{num1+num2}} </text>
+  </view>
+
+  <view>
+    <text> {{"hello " + user.name}} </text>
+  </view>
+
+</view>
