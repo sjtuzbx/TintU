@@ -1,4 +1,22 @@
 <view class="container">
+
+  <template name="UserTemp">
+    <view class="user">
+      <view>姓名: {{item.name}}</view>
+      <view>年龄: {{item.age}}</view>
+    </view>
+  </template>
+
+  <view class="container">
+    <block wx:for="{{users}}">
+      <template is="UserTemp" data="{{item}}" />
+    </block>
+  </view>
+
+  <view bindtap="tapName" class="content">
+    <text> Click me! </text>
+  </view>
+
   <view class="content">
     <text> {{content}} </text>
   </view>
@@ -15,4 +33,15 @@
     <text> {{"hello " + user.name}} </text>
   </view>
 
+  <view wx:for="{{users}}">
+    <text> {{index}} - {{item.name}}-{{item.age}} </text>
+  </view>
+
+  <block wx:for="{{[1,2,3,4,5,6,7,8,9]}}" wx:for-item="i">
+    <block wx:for="{{[1,2,3,4,5,6,7,8,9]}}" wx:for-item="j">
+      <view wx:if="{{i<=j}}">
+        {{i}} * {{j}} = {{i*j}}
+      </view>
+    </block>
+  </block>
 </view>

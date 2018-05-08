@@ -8,6 +8,20 @@ Page({
     user: {
       name: "spark",
       age: 18
-    }
+    },
+    users: [{
+      name: "spark",
+      age: 18
+    }, {
+      name: "spark2",
+      age: 19
+    }, {
+      name: "spark3",
+      age: 20
+    }]
+  },
+  tapName: function(event) {
+    console.log("hello world")
+    console.log(event)
   }
 })

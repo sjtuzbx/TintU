@@ -1,8 +1,5 @@
 {
 	"description": "项目配置文件。",
-	"packOptions": {
-		"ignore": []
-	},
 	"setting": {
 		"urlCheck": true,
 		"es6": true,
@@ -11,9 +8,9 @@
 		"newFeature": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "1.9.98",
+	"libVersion": "1.9.94",
 	"appid": "wxac6860c0327d9b35",
-	"projectname": "First",
+	"projectname": "Mall",
 	"isGameTourist": false,
 	"condition": {
 		"search": {
