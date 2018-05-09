@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/explanation/explanation",
     "pages/start/start",
     "pages/index/index",
     "pages/goods-details/index",
@@ -15,7 +16,7 @@
     "pages/notice/show",
     "pages/recharge/index",
     "pages/withdraw/index",
-    "pages/kanjia/index"
+    "pages/kanjia/index"  
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -34,6 +35,9 @@
       "iconPath": "images/nav/home-off.png",
       "selectedIconPath": "images/nav/home-on.png",
       "text": "首页"
+    }, {
+      "pagePath": "pages/explanation/explanation",
+      "text": "预约说明"
     }, {
       "pagePath": "pages/shop-cart/index",
       "iconPath": "images/nav/cart-off.png",
