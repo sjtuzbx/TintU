@@ -11,6 +11,7 @@
 
 .services-name{
   text-align: center;
+  display: block;
   width: 100%;
   height: 50rpx;
   background-color: #00ff00;
@@ -19,12 +20,12 @@
 .services-logo{
   width: 50%;
   height: 100rpx;
-  background-color: #0000ff;
+  background-color: #00ffff;
 }
 
 .view-style{
   display: inline;
-  background-color: #115500;
+  background-color: #ff0000;
 }
 
 .content{

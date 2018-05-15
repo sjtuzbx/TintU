@@ -20,6 +20,9 @@
     <template is="ServicesTemplate" data="{{item}}" />
   </view>
 
+  <!-- 分割线 -->
+  <view class="seperate-line"> </view>
+
   <!-- <template name="UserTemp">
     <view class="user">
       <view>姓名: {{item.name}}</view>
