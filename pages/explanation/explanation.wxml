@@ -1,6 +1,6 @@
 <view class="container">
-  <view class="logo">
-    <image src="../../images/logo.png" style="width:200rpx; height:70rpx; background-color: #eeeeee;" mode="aspectFill">
+  <view class="top-row">
+    <image class="logo" src="../../images/logo.png" mode="aspectFit">
     </image>
   </view> 
 
