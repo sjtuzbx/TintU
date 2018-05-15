@@ -1,6 +1,26 @@
 <view class="container">
 
-  <template name="UserTemp">
+  <!-- logo -->
+  <view class="logo-row">
+    <image class="logo" src="../../images/logo.png" mode="aspectFit">
+    </image>
+  </view> 
+
+  <!-- template -->
+  <template name="ServicesTemplate">
+    <view class="indi">
+      <text class="services-name"> {{item.name}} </text>
+      <view class="view-style" wx:for="{{item.images}}" wx:for-item="image">
+        <image class="services-logo" src="{{image.src}}" mode="aspectFit"></image> 
+      </view> 
+    </view>
+  </template>
+  
+  <view class="service-template" wx:for="{{service}}">
+    <template is="ServicesTemplate" data="{{item}}" />
+  </view>
+
+  <!-- <template name="UserTemp">
     <view class="user">
       <view>姓名: {{item.name}}</view>
       <view>年龄: {{item.age}}</view>
@@ -43,5 +63,5 @@
         {{i}} * {{j}} = {{i*j}}
       </view>
     </block>
-  </block>
+  </block> -->
 </view>

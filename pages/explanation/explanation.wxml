@@ -1,12 +1,39 @@
 <view class="container">
-  <view class="top-row">
+  <!-- logo -->
+  <view class="logo-row">
     <image class="logo" src="../../images/logo.png" mode="aspectFit">
     </image>
   </view> 
+  
+  <!-- welcome text -->
+  <view class="welcome-row">
+    <text class="welcome-text"> 欢迎来到TintU影像实验室 </text>
+  </view> 
 
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+  <!-- 分割线 -->
+  <view class="seperate-line"> </view>
+
+  <!-- 预约项目说明 -->
+  <view class="explanation">
+    <text class="explanation-title">预约项目说明\n</text>
+    <text class="explanation-item"> 预约成功后订单不可更改，如需取消将产生定金损失，退款规则如下:
+                                    距拍摄时间24小时以上取消订单，可退全额定金
+                                    距拍摄时间不足24小时取消订单，可退50%定金
+    </text>
+    <text class="explanation-item"> 如未按预定日期到店，订单则视为放弃，定金将不予退还\n </text>
+    <text class="explanation-item"> 我们会提供精修后的.jpg格式底片，不提供原始拍摄文件。除开个别套餐项目，不提供拍摄原片\n</text>
   </view>
-  <view>{{ msg }}</view>
-  <button bindtap="clickMe">点击我</button>
+
+  <!-- 分割线 -->
+  <view class="seperate-line"> </view>
+
+  <!-- 同意许可 -->
+  <checkbox-group class="agreeCheckbox" bindchange="agreeCheckbox">
+      <checkbox value="agree" />我同意上述条款
+  </checkbox-group>
+
+  <!-- 开始 -->
+  <button class="start-button" bindtap="startBooking">
+    开始预约
+  </button>
 </view>

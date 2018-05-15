@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/services/services",
     "pages/explanation/explanation",
     "pages/start/start",
     "pages/index/index",
@@ -16,7 +17,7 @@
     "pages/notice/show",
     "pages/recharge/index",
     "pages/withdraw/index",
-    "pages/kanjia/index"  
+    "pages/kanjia/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -49,6 +50,11 @@
       "iconPath": "images/nav/my-off.png",
       "selectedIconPath": "images/nav/my-on.png",
       "text": "我的"
-    }]
+    },
+    {
+      "pagePath": "pages/services/services",
+      "text": "服务"
+    }
+    ]
   }
 }

@@ -1,11 +1,39 @@
-.logo{
-  width: 200rpx; 
-  height: 70rpx; 
-  background-color: "#ff0000"
+@import "../../common.wxss"
+
+.welcome-row{
+  text-align: center;
+  width: 100%; 
+  height: 150rpx; 
+  background-color: #f0f000;
+  line-height: 150rpx;
 }
 
-.top-row{
-  width: 100%; 
-  height: 70rpx; 
-  background-color: "#ff0000"
+.explanation-title{
+  width: 100%;
+  height: 100rpx;
+  font-size: large;
+  line-height: 60rpx;
+}
+
+.explanation-item{
+  width:100%;
+  height: 40rpx;
+  font-size: small;
+}
+
+.agreeCheckbox{
+  text-align: center;
+  width:100%;
+  height: 150rpx;
+  line-height: 100rpx;
+  background-color: #ff00ff;
+}
+
+.start-button{
+  background-color: #00ffff;
+}
+
+container{
+  background-color: #ffffff;
+  height: 100%;
 }
