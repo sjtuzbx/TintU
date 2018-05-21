@@ -7,6 +7,7 @@
   </view> 
 
   <!-- template -->
+
   <template name="ServicesTemplate">
     <view class="indi">
       <text class="services-name"> {{item.name}} </text>
