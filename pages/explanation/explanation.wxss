@@ -1,0 +1,76 @@
+@import "../../common.wxss";
+
+.welcome-row{
+  text-align: center;
+  width: 100%; 
+  height: 120rpx; 
+  line-height: 120rpx;
+  margin-bottom: 20rpx;
+}
+
+.welcome-text{
+  font-size:36rpx;
+}
+
+.dot
+{
+  width:10rpx;
+  height:10rpx;
+  border-radius: 50%;
+  background-color: #696969;
+  float:left;
+  margin-top:25rpx;
+  margin-left:8rpx;
+}
+
+.explanation{
+  padding:20rpx 60rpx 50rpx 50rpx;
+  color: #6e6e6e;
+}
+
+.explanation-title{
+  width: 100%;
+  height: 100rpx;
+  font-size: 30rpx;
+  line-height: 60rpx;
+}
+
+.explanation-items{
+  margin-left: 40rpx;
+  text-indent: 0rpx;
+  padding-left: 0rpxt;
+  text-align: left;
+}
+
+.explanation-item{
+  width:100%;
+  font-size: 24rpx;
+  line-height: 0rpx;
+}
+
+.agreeCheckbox{
+  text-align: center;
+  width:100%;
+  height: 130rpx;
+  line-height: 100rpx;
+  margin-top:30rpx;
+  margin-right:20rpx;
+  font-size: 30rpx;
+  font-weight: bolder;
+}
+
+.start-button{
+  background-color: #fd8f50;
+  width:40%;
+  height:60rpx;
+  font-size: 30rpx;
+  color:white;
+  border-radius: 0rpx;
+  border-color:  #8fd3dc;
+  line-height: 60rpx;
+}
+
+container{
+  background-color: #ffffff;
+  height: 100%;
+}
