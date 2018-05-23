@@ -1,0 +1,13 @@
+<view class="container">
+
+  <!-- logo -->
+  <view class="logo-row">
+    <image class="logo" src="../../images/whitelogo.jpg" mode="aspectFit">
+    </image>
+  </view>
+
+  <!-- 订单详情 -->
+  <view>
+    <text>这是订单详情 TO DO</text>
+  </view>
+</view>

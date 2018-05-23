@@ -39,5 +39,8 @@ Page({
   clickedImg: function (e) {
     console.log(e)
     console.log(e.target.dataset.name)
+    wx.navigateTo({
+      url: '../servicedetail/servicedetail',
+    })
   }
 })

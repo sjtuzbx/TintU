@@ -1,28 +1,18 @@
 {
   "pages":[
     "pages/explanation/explanation",
-    "pages/services/services"
+    "pages/services/services",
+    "pages/myorder/myorder",
+    "pages/orderdetail/orderdetail",
+    "pages/servicedetail/servicedetail",
+    "pages/selectdate/selectdate",
+    "pages/selecttime/selecttime",
+    "pages/confirmorder/confirmorder"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
-  },
-  "tabBar": {
-    "color": "#6e6d6b",
-    "selectedColor": "#e64340",
-    "borderStyle": "white",
-    "backgroundColor": "#fff",
-    "box-shadow":"0 0 6px 0",
-    "list": [ {
-      "pagePath": "pages/explanation/explanation",
-      "text": "预约说明"
-    }, 
-    {
-      "pagePath": "pages/services/services",
-      "text": "服务"
-    }
-    ]
+    "navigationBarTitleText": "TintU影像实验室",
+    "navigationBarBackgroundColor": "#fd8f50",
+    "navigationBarTextStyle": "white"
   }
 }

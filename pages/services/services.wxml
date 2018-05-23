@@ -2,21 +2,21 @@
 
   <!-- logo -->
   <view class="logo-row">
-    <image class="logo" src="../../images/logo.png" mode="aspectFit">
+    <image class="logo" src="../../images/whitelogo.jpg" mode="aspectFit">
     </image>
-  </view> 
+  </view>
 
   <!-- template -->
   <template name="ServicesTemplate">
     <view class="indi">
       <text class="services-name"> {{item.name}} </text>
-      <view class="view-style" wx:for="{{item.images}}" wx:for-item="image">
+      <view class="view-style" wx:for="{{item.images}}" wx:for-item="image" wx:key="name">
         <image class="services-logo" data-name="{{image.name}}" src="{{image.src}}" mode="aspectFit" bindtap='clickedImg'></image> 
       </view> 
     </view>
   </template>
   
-  <view class="service-template" wx:for="{{service}}">
+  <view class="service-template" wx:for="{{service}}" wx:key="name">
     <template is="ServicesTemplate" data="{{item}}" />
   </view>
 

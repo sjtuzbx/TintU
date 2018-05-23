@@ -1,0 +1,10 @@
+<view class="page">
+
+  <!-- logo -->
+  <view class="logo-row">
+    <image class="logo" src="../../images/whitelogo.jpg" mode="aspectFit">
+    </image>
+  </view>
+  
+  <view> <text> 确认订单 </text></view>
+</view>

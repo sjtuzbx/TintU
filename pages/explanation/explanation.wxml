@@ -41,7 +41,7 @@
   </checkbox-group>
 
   <!-- 开始 -->
-  <button class="start-button" bindtap="startBooking" disabled="{{!agree}}">
+  <button class="start-button" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo" disabled="{{!agree}}">
     开始预约
   </button>
 
