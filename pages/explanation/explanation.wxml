@@ -25,7 +25,7 @@
     </view>
     <view class="dot"></view>
     <view class="explanation-items">
-      <text class="explanation-item">如未按预定日期到店，订单则视为放弃，定金将不予退还\n </text> </view>
+      <text class="explanation-item">如未按预定日期到店，订单则视为放弃，定金将不予退还\n </text>       </view>
     <view class="dot"></view>
     <view class="explanation-items">
       <text class="explanation-item">我们会提供精修后的.jpg格式底片，不提供原始拍摄文件。除开个别套餐项目，不提供拍摄原片\n</text>
@@ -37,11 +37,16 @@
 
   <!-- 同意许可 -->
   <checkbox-group class="agreeCheckbox" bindchange="agreeCheckbox">
-    <checkbox value="agree" />  我同意上述条款
+    <checkbox value="agreeCheckBox" />  我同意上述条款
   </checkbox-group>
 
   <!-- 开始 -->
-  <button class="start-button" bindtap="startBooking">
+  <button class="start-button" bindtap="startBooking" disabled="{{!agree}}">
     开始预约
   </button>
+
+  <!-- 我的订单 -->
+   <button class="start-button" bindtap="myBookInfo">
+    我的订单
+  </button> 
 </view>

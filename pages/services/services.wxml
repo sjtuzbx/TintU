@@ -7,12 +7,11 @@
   </view> 
 
   <!-- template -->
-
   <template name="ServicesTemplate">
     <view class="indi">
       <text class="services-name"> {{item.name}} </text>
       <view class="view-style" wx:for="{{item.images}}" wx:for-item="image">
-        <image class="services-logo" src="{{image.src}}" mode="aspectFit"></image> 
+        <image class="services-logo" data-name="{{image.name}}" src="{{image.src}}" mode="aspectFit" bindtap='clickedImg'></image> 
       </view> 
     </view>
   </template>
@@ -23,49 +22,4 @@
 
   <!-- 分割线 -->
   <view class="seperate-line"> </view>
-
-  <!-- <template name="UserTemp">
-    <view class="user">
-      <view>姓名: {{item.name}}</view>
-      <view>年龄: {{item.age}}</view>
-    </view>
-  </template>
-
-  <view class="container">
-    <block wx:for="{{users}}">
-      <template is="UserTemp" data="{{item}}" />
-    </block>
-  </view>
-
-  <view bindtap="tapName" class="content">
-    <text> Click me! </text>
-  </view>
-
-  <view class="content">
-    <text> {{content}} </text>
-  </view>
-
-  <view class="content" hidden="{{flag ? true : false}}">
-    <text> {{hiddencontent}} </text>
-  </view>
-  
-  <view class="content">
-    <text> {{num1}} + {{num2}} = {{num1+num2}} </text>
-  </view>
-
-  <view>
-    <text> {{"hello " + user.name}} </text>
-  </view>
-
-  <view wx:for="{{users}}">
-    <text> {{index}} - {{item.name}}-{{item.age}} </text>
-  </view>
-
-  <block wx:for="{{[1,2,3,4,5,6,7,8,9]}}" wx:for-item="i">
-    <block wx:for="{{[1,2,3,4,5,6,7,8,9]}}" wx:for-item="j">
-      <view wx:if="{{i<=j}}">
-        {{i}} * {{j}} = {{i*j}}
-      </view>
-    </block>
-  </block> -->
 </view>
