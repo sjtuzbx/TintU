@@ -1,7 +1,7 @@
 <view class="container">
   <!-- logo -->
   <view class="logo-row">
-    <image class="logo" src="../../images/whitelogo.jpg" mode="aspectFit">
+    <image class="logo" src="../../images/whitelogo.png" mode="aspectFit">
     </image>
   </view>
 
