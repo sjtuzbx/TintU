@@ -1,4 +1,4 @@
-@import "../../common.wxss";
+@import "../common/common.wxss";
 
 .welcome-row{
   text-align: center;
@@ -60,6 +60,7 @@
 }
 
 .start-button{
+  margin-bottom: 10rpx;
   background-color: #fd8f50;
   width:40%;
   height:60rpx;
@@ -70,7 +71,7 @@
   line-height: 60rpx;
 }
 
-container{
+.container{
   background-color: #ffffff;
   height: 100%;
 }

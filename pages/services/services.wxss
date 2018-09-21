@@ -1,4 +1,4 @@
-@import "../../common.wxss";
+@import "../common/common.wxss";
 
 .service-template{
   width: 100%;

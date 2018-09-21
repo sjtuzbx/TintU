@@ -1,0 +1,19 @@
+<view class="container">
+
+  <!-- logo -->
+  <view class="logo-row">
+    <image class="logo" src="../../images/whitelogo.jpg" mode="aspectFit">
+    </image>
+  </view>
+
+  <!-- 订单 -->
+  <view class="no-order" hidden="{{orderList ? true : false}}">
+    <image src="../../images/no-order.png" class="no-order-img"></image>
+    <view class="text">暂无订单</view>
+  </view>
+
+  <view bindtap="showDetailOrder">
+    <text>订单A, click me please, 样式模版TO DO</text>
+  </view>
+
+</view>

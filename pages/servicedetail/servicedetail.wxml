@@ -1,0 +1,24 @@
+<view class="container">
+
+  <!-- logo -->
+  <view class="logo-row">
+    <image class="logo" src="../../images/whitelogo.jpg" mode="aspectFit">
+    </image>
+  </view>
+  
+  <view> <text> 价格 </text></view>
+  <!-- 分割线 -->
+  <view class="seperate-line"> </view>
+  
+  <view> <text> 包含项目 </text></view>
+  <!-- 分割线 -->
+  <view class="seperate-line"> </view>
+  <view> <text> 用途 </text></view>
+  <!-- 分割线 -->
+  <view class="seperate-line"> </view>
+  
+  <view class="weui-flex">
+    <button class="weui-btn" type="primary" plain="true" bindtap="chooseServices">重选拍摄类型</button>
+    <button class="weui-btn" type="primary" plain="true" bindtap="dateSelect">下一步</button>
+  </view>
+</view>
